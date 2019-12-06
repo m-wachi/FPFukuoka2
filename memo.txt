@@ -1,0 +1,15 @@
+0. sudo apt-get install git
+
+
+1. https://github.com/m-wachi/FPFukuoka.git
+
+2. sudo apt-get install ghc
+
+3. sudo apt-get install emacs
+
+4. sudo apt-get install haskell-mode
+
+5. cd FpFukuoka
+
+6. runghc helloworld.hs
+
