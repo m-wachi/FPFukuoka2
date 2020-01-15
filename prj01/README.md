@@ -61,7 +61,7 @@ myAdd x y = x + y
 
 ## 本編解説
  MyMdl01.hs
-
+（プログラムの中のコメントに書いたほうがわかりやすい）
 型の説明<br>
 RecordDay: １レコード１日の売上データ<br>
 RecordWeek: １レコード１週間の売上データ<br>
