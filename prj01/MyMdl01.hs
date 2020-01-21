@@ -20,6 +20,13 @@ data RecordWeek = RecordWeek { monday :: Day, rwMercCd :: String,
                                salesAmtThu :: Int, salesAmtFri :: Int, salesAmtSat :: Int,
                                salesAmtSun :: Int } deriving Show
 
+-- Haskellについての説明
+-- Haskellでは"data"で始まるのはCでいうところの構造体定義と近い
+-- "data"の後ろの"RecordDay"が型名。salesDateやrdMercCdがメンバでありかつメンバ取得関数
+-- a = rwMercCd rw1でRecordWeek型の変数rw1からrwMercCdメンバの値を取得し、aに設定する
+
+
+
 -- 当週の月曜日を取得
 getThisMonday :: Cal.Day -> Cal.Day
 getThisMonday dayVal = Cal.addDays (fromIntegral $ 1 - dow) dayVal
